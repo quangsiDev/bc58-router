@@ -23,6 +23,9 @@ export default class Header extends Component {
         <NavLink className="btn btn-danger" to="/use-effect">
           UseEffect
         </NavLink>
+        <NavLink className="btn btn-danger" to="/user-management">
+          User Management
+        </NavLink>
       </div>
     );
   }

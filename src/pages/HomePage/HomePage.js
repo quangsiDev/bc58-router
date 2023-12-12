@@ -34,7 +34,7 @@ export default class HomePage extends Component {
           />
 
           <button className="btn btn-success">
-            <NavLink className="text-white" to={`/detai/${item.maPhim}`}>
+            <NavLink className="text-white" to={`/detail/${item.maPhim}`}>
               Xem chi tiết
             </NavLink>
           </button>
