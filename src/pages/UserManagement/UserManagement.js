@@ -4,7 +4,7 @@ import FormUser from "./FormUser";
 
 export default function UserManagement() {
   return (
-    <div>
+    <div className="container">
       <ListUser />
       <FormUser />
     </div>

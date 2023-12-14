@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function FormUser() {
-  return <div>FormUser</div>;
+  // state
+  return (
+    <form>
+      <input type="text" class="form-control" placeholder="" />
+    </form>
+  );
 }
