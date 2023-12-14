@@ -5,8 +5,8 @@ import FormUser from "./FormUser";
 export default function UserManagement() {
   return (
     <div className="container">
-      <ListUser />
       <FormUser />
+      <ListUser />
     </div>
   );
 }

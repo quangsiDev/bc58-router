@@ -38,10 +38,11 @@ export default function ListUser() {
   };
 
   let renderList = () => {
-    return userList.map((user) => {
+    return [...userList].reverse().map((user) => {
       return (
         <tr>
           <td>{user.id}</td>
+          <td>{user.name}</td>
           <td>{user.account}</td>
           <td>{user.password}</td>
           <th>
@@ -64,6 +65,7 @@ export default function ListUser() {
         <thead>
           <tr>
             <th>Id</th>
+            <th>Name</th>
             <th>Account</th>
             <th>Password</th>
             <th>Action</th>
